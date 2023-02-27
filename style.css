@@ -1,0 +1,161 @@
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f0f0f0;
+    margin: 0px;
+    padding: 0px;
+    height: 2000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+mark{
+    border-radius: 10px; padding: 2px 5px;
+}
+
+header{
+    box-shadow: 0 2px 4px 0 rgb(34 34 34 / 12%);
+}
+
+
+.ul_block_settings li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+li:hover{
+    background-color: #f6f5f3;
+    border-radius: 20px;
+}
+
+header{
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: white;
+    height: 80px;
+}
+
+.list_wrapper{
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 20px;
+}
+
+.pricture_class{
+    display: inline-block;
+}
+
+.pricture_class img{
+    width: 60px;
+}
+
+.ul_block_settings li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+
+.inf_block{
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.main_inf_block{
+    position: relative;
+    max-width: 1200px;
+    margin: 0px auto;
+    height: 100%;
+}
+
+.list_inf_wrapper{
+    display: flex;
+}
+
+.picture_block img{
+    width: 350px;
+}
+
+.picture_block_for_cel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.celebrities_block{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#belarus:before{
+	display: block;
+	content: "";
+	height: 80px;
+	margin: -55px 0 0;
+}
+
+#interest_tips:before{
+	display: block;
+	content: "";
+	height: 80px;
+	margin: -55px 0 0;
+}
+
+
+#places:before{
+	display: block;
+	content: "";
+	height: 80px;
+	margin: -55px 0 0;
+}
+
+#famous_people:before{
+	display: block;
+	content: "";
+	height: 80px;
+	margin: -55px 0 0;
+}
+
+
+.places_list_block{
+    display: flex;
+}
+
+.inf_places_block{
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.inf_places_block h3{
+    text-align: center;
+}
+
+.inf_places_block p{
+    text-align: justify;
+    font-size: 16px;
+}
+
+
+.famous_people_inf_block p{
+    font-size: 17.5px;
+}
